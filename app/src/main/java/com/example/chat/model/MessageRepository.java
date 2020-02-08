@@ -21,6 +21,8 @@ public class MessageRepository implements MainController.Model {
   public MessageRepository()
   {
       messages = new ArrayList<>();
+      firebaseDatabase = FirebaseDatabase.getInstance();
+      databaseReference = firebaseDatabase.getReference("messages");
   }
 
     @Override

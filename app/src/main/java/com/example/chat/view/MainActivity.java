@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements MainController.Vi
 
     private AdapterMessage adapterMessage;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
